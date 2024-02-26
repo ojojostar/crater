@@ -1,0 +1,32 @@
+https://ppiconsulting.dev/blog/blog29/
+https://en.wikipedia.org/wiki/Dimensionality_reduction
+Locally Linear Embedding (LLE)
+
+
+t-sne comparison with pca
+https://stats.stackexchange.com/questions/340175/why-is-t-sne-not-used-as-a-dimensionality-reduction-technique-for-clustering-or
+https://distill.pub/2016/misread-tsne/
+
+umap
+
+
+silhouette analysis
+get rid of shadows (<.05 spectral)
+purpose is to zoom in more and determine avg spectral of clusters to determine the composition of a clustering (avg it out)
+
+
+c:\Users\josep\Documents\Joseph\crater\.venv\Lib\site-packages\sklearn\cluster\_kmeans.py:1416: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  super()._check_params_vs_input(X, default_n_init=10)
+For n_clusters = 2 The average silhouette_score is : 0.49030098
+c:\Users\josep\Documents\Joseph\crater\.venv\Lib\site-packages\sklearn\cluster\_kmeans.py:1416: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  super()._check_params_vs_input(X, default_n_init=10)
+For n_clusters = 3 The average silhouette_score is : 0.5050241
+c:\Users\josep\Documents\Joseph\crater\.venv\Lib\site-packages\sklearn\cluster\_kmeans.py:1416: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  super()._check_params_vs_input(X, default_n_init=10)
+For n_clusters = 4 The average silhouette_score is : 0.50843614
+c:\Users\josep\Documents\Joseph\crater\.venv\Lib\site-packages\sklearn\cluster\_kmeans.py:1416: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  super()._check_params_vs_input(X, default_n_init=10)
+For n_clusters = 5 The average silhouette_score is : 0.47877276
+c:\Users\josep\Documents\Joseph\crater\.venv\Lib\site-packages\sklearn\cluster\_kmeans.py:1416: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  super()._check_params_vs_input(X, default_n_init=10)
+For n_clusters = 6 The average silhouette_score is : 0.46581623
